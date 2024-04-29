@@ -1,0 +1,46 @@
+.header {
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+
+  .switch {
+    overflow: hidden;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+    .form {
+      height: 100%;
+      .input {
+        padding: 0 10px;
+        border-radius: 4px;
+        height: 100%;
+        width: 270px;
+        font-size: 15px;
+        color: gray;
+        outline: none;
+        border: none;
+        transition: 5s ease all;
+      }
+    }
+
+    .button {
+      opacity: 0.7;
+      cursor: pointer;
+      background: inherit;
+      color: #fff;
+      transition: 0.4s ease opacity;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
